@@ -17,6 +17,7 @@ export default function Navbar() {
   const currentUser = { displayName: "Neojen" };
   
   return (
+    <>
     <Disclosure
       as="nav"
       className="bg-neutral-100 dark:bg-gray-900 dark:text-white fixed top-0 w-full z-20 "
@@ -79,5 +80,16 @@ export default function Navbar() {
         </div>
       </div>
     </Disclosure>
+    <div className="h-[64px]">
+
+    </div>
+    
+    
+    
+    
+    
+    </>
+    
+
   );
 }
