@@ -7,15 +7,17 @@ import MovieDetail from "../pages/MovieDetail";
 import Navbar from "../components/Navbar";
 
 const AppRouter = () => {
-  return <>
-  <Navbar/>
-  <Routes>
-  <Route path="/" element={<Main/>} />
-  <Route path="/login" element={<Login/>} />
-  <Route path="/register" element={<Register/>} />
-  <Route path="/details/:movieId" element={<MovieDetail/>} />
-  </Routes>
-  </>;
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/details/:movieId" element={<MovieDetail />} />
+      </Routes>
+    </>
+  );
 };
 
 export default AppRouter;
